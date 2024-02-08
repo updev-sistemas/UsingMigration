@@ -1,0 +1,2 @@
+ALTER TABLE IF EXISTS public.cidade 
+ADD COLUMN IF NOT EXISTS add_depois_criado INT DEFAULT 0;
